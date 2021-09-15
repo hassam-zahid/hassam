@@ -20,7 +20,6 @@ def reverse_only_letters(s)
             i = i+1
             j=j-1
         end
-        puts s
     end
     s.each { |str| reverse_str += str.to_s}
     return reverse_str
